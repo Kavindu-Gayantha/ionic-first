@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  todo = {
+    title: '',
+    description: ''
+  };
+  logForm(form) {
+    console.log(form.value)
+  }
 
 }
